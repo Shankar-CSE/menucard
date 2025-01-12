@@ -5,7 +5,6 @@ body{
     padding: 20px;
     background-color: black;
     box-shadow: 5px 5px 10px white;
-    box-sizing: border-box;
     border-radius: 50px;
 }
 .title-bar{
