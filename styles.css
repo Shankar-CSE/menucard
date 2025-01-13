@@ -8,7 +8,7 @@ body{
     border-radius: 50px;
 }
 .title-bar{
-    align-items: center;
+   justify-content: center;
     border-radius: 50px;
     margin: 20px;
     color: blue;
@@ -68,8 +68,23 @@ body{
 .payment{
     justify-content: center;
     display: flex;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(8, 231, 75);
+    border-radius: 50px;
+    background-color: black;
+    animation: fadeIn 5s , slidedown 5s;
+    align-content: center;
+    margin-bottom: 50px;
 }
 .paybutton
 {
-    margin-left: 20px;
+    margin: 20px;
+    margin-bottom: 0%;
+
+}
+
+.pay{
+    background-color: white;
+    box-shadow:  0 0 10px 5px white;
+    border-radius: 50%;
 }
